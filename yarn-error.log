@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\nodejs\bin\yarn.js add [package] --optional
+
+PATH: 
+  C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\nodejs\bin\;C:\Program Files (x86)\gsudo\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\PostgreSQL\10\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\DELL\AppData\Local\Pub\Cache\bin;C:\Users\DELL\anaconda3;C:\Users\DELL\anaconda3\Library\mingw-w64\bin;C:\Users\DELL\anaconda3\Library\usr\bin;C:\Users\DELL\anaconda3\Library\bin;C:\Users\DELL\anaconda3\Scripts;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Users\DELL\.dotnet\tools;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\DELL\AppData\Local\Yarn\bin;C:\Users\DELL\AppData\Roaming\Composer\vendor\bin;C:\WinNMP\bin;C:\Users\DELL\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/[package]: Not found
+      at params.callback [as _callback] (C:\Program Files (x86)\nodejs\lib\cli.js:66145:18)
+      at self.callback (C:\Program Files (x86)\nodejs\lib\cli.js:140890:22)
+      at Request.emit (node:events:515:28)
+      at Request.<anonymous> (C:\Program Files (x86)\nodejs\lib\cli.js:141862:10)
+      at Request.emit (node:events:515:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:629:28)
+      at IncomingMessage.emit (node:events:527:35)
+      at endReadableNT (node:internal/streams/readable:1409:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "slack-clone",
+    "version": "1",
+    "description": "slack-clone react js",
+    "main": "index.js",
+    "repository": "yes",
+    "author": "yes",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

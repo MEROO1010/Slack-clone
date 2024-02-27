@@ -1,0 +1,13 @@
+{
+  "name": "slack-clone",
+  "version": "1",
+  "description": "slack-clone react js",
+  "main": "index.js",
+  "repository": "yes",
+  "author": "yes",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "firebase": "^10.8.0"
+  }
+}
